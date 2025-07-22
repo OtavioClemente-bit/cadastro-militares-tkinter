@@ -7,7 +7,7 @@ Projeto completo em Python com Tkinter para **cadastro, gerenciamento e visualiz
 ---
 ##  Demonstração
 
-![Demonstração do Sistema](execução_projeto)
+![Demonstração do Sistema](execução_projeto.gif)
 
 > *A animação acima mostra o funcionamento real do sistema: cadastro com validações, contagem por posto/graduação, exibição de militares e tooltip com foto ao passar o mouse.*
 ##  Funcionalidades
