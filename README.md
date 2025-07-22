@@ -5,7 +5,11 @@ Projeto completo em Python com Tkinter para **cadastro, gerenciamento e visualiz
 >  **Propósito real:** Este sistema substitui o uso de planilhas e automatiza a rotina administrativa de controle de militares, algo que eu realmente utilizo no meu trabalho dentro do Exército Brasileiro.
 
 ---
+##  Demonstração
 
+![Demonstração do Sistema](gif-execucao.gif)
+
+> *A animação acima mostra o funcionamento real do sistema: cadastro com validações, contagem por posto/graduação, exibição de militares e tooltip com foto ao passar o mouse.*
 ##  Funcionalidades
 
  Cadastro completo com:
