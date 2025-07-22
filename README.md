@@ -76,14 +76,6 @@ cadastro-militares/
 └── README.md             # Este arquivo
 ```
 
----
-
-##  Screenshot
-
-![Exemplo da tela principal](imgs/exemplo.jpg)
-
----
-
 ##  Próximos passos (em andamento)
 
 -  Tela de edição de dados  
