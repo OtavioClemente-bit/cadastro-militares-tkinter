@@ -1,97 +1,116 @@
-#  Sistema de Cadastro de Militares
+# Sistema de Cadastro de Militares
 
-Projeto completo em Python com Tkinter para **cadastro, gerenciamento e visualização de militares** em uma organização. Desenvolvido com foco em **usabilidade**, **validação de dados** e **organização hierárquica por posto e graduação**.
+Sistema desktop desenvolvido em **Python** com **Tkinter** para cadastro, organização e consulta de militares em uma rotina administrativa.
 
->  **Propósito real:** Este sistema substitui o uso de planilhas e automatiza a rotina administrativa de controle de militares, algo que eu realmente utilizo no meu trabalho dentro do Exército Brasileiro.
+O projeto nasceu de uma necessidade real: substituir controles manuais e planilhas por uma ferramenta simples, visual e mais organizada.
+
+> Observação: o repositório não deve conter dados reais de militares. Qualquer dado utilizado em demonstrações deve ser fictício.
 
 ---
-##  Demonstração
+
+## Objetivo
+
+Criar uma aplicação local para apoiar o controle de efetivo, permitindo registrar informações essenciais, consultar dados rapidamente e manter uma base organizada para tarefas administrativas.
+
+Este projeto representa minha evolução prática em desenvolvimento: comecei com scripts simples em Python e fui avançando para interfaces gráficas, validações, persistência local e organização de funcionalidades.
+
+---
+
+## Funcionalidades
+
+- Cadastro de militares com dados básicos
+- Organização por posto/graduação
+- Nome completo e nome de guerra
+- Validação e formatação de CPF
+- Registro de PREC-CP e identidade militar
+- Campos bancários e dados administrativos
+- Inclusão opcional de foto
+- Tela inicial com resumo do efetivo
+- Contagem por posto/graduação
+- Persistência local em arquivo JSON
+
+---
+
+## Demonstração
 
 ![Demonstração do Sistema](execução_projeto.gif)
 
-> *A animação acima mostra o funcionamento real do sistema: cadastro com validações, contagem por posto/graduação, exibição de militares e tooltip com foto ao passar o mouse.*
-##  Funcionalidades
-
- Cadastro completo com:
-- Posto e Graduação  
-- Nome completo e nome de guerra  
-- CPF com validação e formatação  
-- PREC-CP e Identidade Militar  
-- Banco, Agência e Conta  
-- Inserção de foto (opcional)
-
- Tela inicial com:
-- Total de militares cadastrados  
-- Quantidade por Posto/Graduação
-
- Salvamento dos dados em arquivo `.json`
+A demonstração apresenta o fluxo principal do sistema: cadastro, validação, visualização e organização das informações cadastradas.
 
 ---
 
-##  Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 - **Python 3**
-- **Tkinter (GUI)**
-- **Pillow (PIL) para imagens**
-- **JSON para persistência dos dados**
+- **Tkinter** para interface gráfica
+- **Pillow** para manipulação de imagens
+- **JSON** para persistência local
+- **Git e GitHub** para versionamento
 
 ---
 
-##  Motivação
+## O que este projeto demonstra
 
-Sou militar de carreira e estudante de Ciência da Computação. Desenvolvi esse projeto para **facilitar minha rotina administrativa real**. Com ele, consigo eliminar planilhas e ter uma solução visual, segura e reutilizável.
-
-Este projeto também é parte da minha **transição de carreira para área de tecnologia** — e é um marco do meu crescimento prático em Python.
+- Criação de interfaces gráficas desktop
+- Organização de dados locais
+- Validação de entrada do usuário
+- Separação de responsabilidades em uma aplicação simples
+- Capacidade de transformar uma necessidade real em solução funcional
+- Evolução prática em desenvolvimento de software
 
 ---
 
-##  Como rodar
+## Como executar
 
-1. **Clone o repositório**
+1. Clone o repositório:
+
 ```bash
-git clone https://github.com/seu-usuario/cadastro-militares.git
-cd cadastro-militares
+git clone https://github.com/OtavioClemente-bit/cadastro-militares-tkinter.git
+cd cadastro-militares-tkinter
 ```
 
-2. **Instale as dependências**
+2. Instale a dependência necessária:
+
 ```bash
 pip install pillow
 ```
 
-3. **Execute o sistema**
+3. Execute o projeto:
+
 ```bash
 python main.py
 ```
 
 ---
 
-##  Estrutura
+## Estrutura básica
 
-```
-cadastro-militares/
-├── main.py               # Código principal com interface
-├── militares.json        # Banco de dados local
+```text
+cadastro-militares-tkinter/
+├── main.py
+├── militares.json
 ├── imgs/
-│   └── exemplo.jpg       # Exemplo de imagem
-└── README.md             # Este arquivo
+└── README.md
 ```
-
-##  Próximos passos (em andamento)
-
--  Tela de edição de dados  
--  Exclusão de militares  
--  Listagem completa com busca  
--  Tooltip com foto ao passar o mouse  
--  Exportação para PDF ou Excel  
--  Interface mais moderna com `ttkbootstrap`
 
 ---
 
-##  Autor
+## Melhorias futuras
 
-**Otavio Clemente**  
-Sargento do Exército | Estudante de Ciência da Computação  
-Apaixonado por resolver problemas com código.
+- Migração para SQLite
+- Tela de edição mais completa
+- Exportação para PDF ou Excel
+- Busca avançada por nome, posto/graduação e outros campos
+- Interface mais moderna
+- Separação do projeto em camadas
+- Testes automatizados para validações principais
 
-🔗 [GitHub](https://github.com/OtavioClemente-bit)  
-🔗 [LinkedIn](https://www.linkedin.com/in/otavio-clemente-36056b2b5/)
+---
+
+## Autor
+
+Desenvolvido por **Otavio Clemente**  
+Estudante de Ciência da Computação e desenvolvedor em formação, com foco em Python, automação e sistemas administrativos.
+
+- GitHub: [@OtavioClemente-bit](https://github.com/OtavioClemente-bit)
+- LinkedIn: [Otavio Clemente](https://www.linkedin.com/in/otavio-clemente-36056b2b5/)
